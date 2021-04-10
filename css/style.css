@@ -156,3 +156,17 @@ h5 {
     background: rgba(34, 114, 116, 0.9);
     top: 5px;
 }
+.contact {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 240px;
+    background-color: #F7F9F9;
+    border-radius: 0px 10px 10px 0px;
+}
+.contact img {
+    margin: 16px;
+    width: 32px;
+    height: 32px;
+}
