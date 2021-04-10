@@ -1,0 +1,158 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin: 0;
+    color: #125CB8;
+}
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+.muraTitle {
+    color: #AAE9E9;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;    
+}
+.muraTitleH3 {
+    color: #AAE9E9;
+}
+h4 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;    
+}
+h5 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;        
+}
+.nav-item {
+    color: #579AEF;
+    text-decoration: none;
+    margin: 16px;
+    padding: 8px;
+}
+#introduction {
+    margin: 0px;
+    padding: 64px 70px;
+    background-color: #F7F9F9;
+}
+#research {
+    margin: 0px;
+    padding: 64px 70px;
+}
+#problem {
+    margin: 0px;
+    padding: 64px 70px;
+    background-color: #ECF3FB;
+}
+#iteration {
+    margin: 0px auto;
+    padding: 64px 70px;
+}
+#results {
+    margin: 0px;
+    padding: 64px 70px;
+    background-color: #ECF3FB;
+}
+#hide {
+    margin: 0px;
+    padding: 64px 70px;
+    background-color: #F7F9F9;
+}
+#navigation {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background: #072448;
+    height: 80px;
+    border-bottom: 3px solid #54D2D2;
+    position: fixed;
+    top: 0;
+    z-index: 60;
+}
+#navMenu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-right: 70px;
+}
+#navigation img {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 27px;
+    height: 31px;
+    margin-left: 70px;
+}
+.container-fluid {
+    max-width: 1440px;
+}
+#topArrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(84, 210, 210);
+    background: rgba(84, 210, 210, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#topArrow img {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: center;
+    top: center;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#topArrow:hover {
+    background: rgba(34, 114, 116, 0.9);
+    top: 5px;
+}
