@@ -24,21 +24,20 @@
             <a href="www.linkedin.com/in/christopher-pantoja-168b191b7"><img src="images/linkedin_lg.svg"></a>
         </div>
         <nav class="navMenu" id="navigation">
-            <a href="#">
             <img src="images/anchorLogo.svg" width="27" height="31" alt="">
-            </a>
-            <a href="#"><img src="images/backArrow.svg" width="24" height="24" class="d-inline-block align-top" alt="">Back to home</a>
-            <div class="flex-row-reverse navbar navbar-expand-lg" id="navbarNavAltMarkup">
-                <div class=>
-                <ul class=>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sections</a>
+            <a href="https://uxpants.github.io/" class="navLinks"><img src="images/backArrow.svg" width="24" height="24" alt="">Back to home</a>
+            <div>
+                <div id="navMenu">
+                <ul class="nav justify-content-end">
+                    <li class="dropdown"><a class="dropdown-toggle navLinks" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sections</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Introduction</a>
-                            <a class="dropdown-item" href="#">Research</a>
-                            <a class="dropdown-item" href="#">Problem</a>
-                            <a class="dropdown-item" href="#">Iteration</a>
-                            <a class="dropdown-item" href="#">Prototype</a>
-                            <a class="dropdown-item" href="#">Results</a>
+                            <a class="dropdown-item navLinks" href="#introduction">Introduction</a>
+                            <a class="dropdown-item navLinks" href="#research">Research</a>
+                            <a class="dropdown-item navLinks" href="#problem">Problem</a>
+                            <a class="dropdown-item navLinks" href="#iteration">Iteration</a>
+                            <a class="dropdown-item navLinks" href="#prototype">Prototype</a>
+                            <a class="dropdown-item navLinks" href="#results">Results</a>
+                        </div>
                     </li>
                 </ul>
                 </div>
@@ -151,12 +150,11 @@
                     </div>
                 </div>
                 <div class="row">
-                      <div class="col">
-                        <img src="images/midfiPrototype01.png" alt="...">
+                    <div class="col-sm"></div>
+                      <div class="col-sm">
+                        <img class="mb-3" src="images/midfiPrototype01.png" alt="..."><p>Having a direction forward, I began creating mid-fidelity wireframes of the general layout based on the user flow developed by one of the team members. During this phase, I used the opportunity to train my teammates on how to use Figma with more efficiency.</p>
                       </div>
-                      <div class="col">
-                          <p>Having a direction forward, I began creating mid-fidelity wireframes of the general layout based on the user flow developed by one of the team members. During this phase, I used the opportunity to train my teammates on how to use Figma with more efficiency.</p>
-                      </div>
+                    <div class="col-sm"></div>
                 </div>
             </div>
         </section>
@@ -210,7 +208,15 @@
                 </div>
             </div>
         </section>
-        <SCRIPT>
+        <footer id="navigation2">
+            <div id="footerMenu">
+                <p>© 2021 Christopher Pantoja</p>
+                    <p><a href="mailto:chris.pantoja@gmail.com"><img src="images/uil_envelope.svg"></a></p>
+                    <p><a href="https://www.instagram.com/ux_pants/"><img src="images/uil_instagram.svg"></a></p>
+                    <p><a href="www.linkedin.com/in/christopher-pantoja-168b191b7"><img src="images/uil_linkedin.svg"></a></p>
+            </div>
+        </footer>
+        <script>
             function ShowAndHide() {
                 var x = document.getElementById('hide');
                 if (x.style.display == 'none') {
@@ -219,7 +225,7 @@
                     x.style.display = 'none';
                 }
             }
-            </SCRIPT>
+            </script>
 <!-- Separate Popper and Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>

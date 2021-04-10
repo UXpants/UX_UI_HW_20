@@ -107,6 +107,35 @@ h5 {
     justify-content: space-evenly;
     margin-right: 70px;
 }
+.navLinks {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    color: #579AEF;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin: 16px;
+    padding: 8px;
+}
+a.navLinks:hover {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    background: #C7DDFA;
+    border-radius: 8px;
+    color: #125CB8;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin: 16px;
+    padding: 8px;
+}
+#navMenu p a {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+}
 #navigation img {
     display: flex;
     align-items: flex-start;
@@ -169,4 +198,29 @@ h5 {
     margin: 16px;
     width: 32px;
     height: 32px;
+}
+#navigation2 {
+    display: block;
+    background: #072448;
+    border-top: 3px solid #54D2D2;
+}
+#footerMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
+    padding-left: 70px;
+}
+#footerMenu p {
+    color: #579AEF;
+    text-align: center;
+}
+#footerMenu img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 24px;
+    width: 50px;
+    height: 50px;
 }
