@@ -242,3 +242,51 @@ a.navLinks:hover {
     width: 50px;
     height: 50px;
 }
+button {
+    width: 222px;
+    height: 48px;
+    background: #54D2D2;
+    box-shadow: 0px 6px 14px rgba(7, 36, 72, 0.3);
+    border-radius: 10px;
+    border: 1px solid #54D2D2;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #072448;
+}
+button a {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #072448;
+}
+button:hover {
+    border: 1px solid #1F7274;
+    background-color: #1F7274;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #DDF6F6;
+}
+button:hover a {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #DDF6F6;
+}
+@media only screen and (max-width: 600px) {
+.lofi {
+    flex-direction: column;
+}  
+}

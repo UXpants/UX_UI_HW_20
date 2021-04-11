@@ -23,11 +23,9 @@
             <a href="https://www.instagram.com/ux_pants/"><img src="images/instagram_lg.svg"></a>
             <a href="www.linkedin.com/in/christopher-pantoja-168b191b7"><img src="images/linkedin_lg.svg"></a>
         </div>
-        <nav class="navMenu d-flex justify-content-between" id="navigation">
-            <div>
+        <nav class="navMenu" id="navigation">
             <img src="images/anchorLogo.svg" width="27" height="31" alt="">
-            <a href="https://uxpants.github.io/"><img src="images/backArrow.svg" width="24" height="24" alt="">Home</a>
-            </div>
+            <a class="navLinks" href="https://uxpants.github.io/">Home</a>
             <div>
                 <div class="dropdown">
                     <a class="dropdown-toggle navLinks pr-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,7 +45,7 @@
         </nav>
         <!-- Hero Section -->
         <section class="mt-5">
-        <div class="jumbotron jumbotron-fluid" style="background-image: url(images/muraBackground.png); background-repeat: no-repeat; background-size: cover; height: 600px;">
+        <div class="jumbotron jumbotron-fluid" style="background-image: url(images/muraBackground.png); background-repeat: no-repeat; background-size: cover; height: 900px; background-position: center;">
             <div class="container">
               <h1 class="muraTitle">mura</h1>
               <h3 class="muraTitleH3">mobile app prototype</h3>
@@ -57,12 +55,12 @@
         <!-- Introduction Section -->
         <section id="introduction">
             <div class="container-fluid">
-                <div class="row row-cols-2">
-                  <div class="col-8">
+                <div class="row row-cols-1 row-cols-md-2">
+                  <div class="col mb-5">
                     <h2>Project Summary</h2>
                     <p>To create an app that allowed users to share grocery lists so that when either user was at the store they could easily pick up the items. This app would involve using location-based alerts to notify users when their family or friend was at the store. Seamlessly integrate another user’s grocery list in yours while still maintaining separation.</p>
                   </div>
-                  <div class="col-4">
+                  <div class="col mb-5">
                     <ul class="list-group list-group-flush m-0">
                         <li class="list-group-item border-0 m-0"><p class="font-weight-bold text-uppercase">Project Date</p><p>2020 - DEC 2020 (three weeks)</p></li>
                         <li class="list-group-item border-0"><p class="font-weight-bold text-uppercase">Team</p><p>3 UX/UI designers</p></li>
@@ -91,12 +89,12 @@
                     <div class="col">
                         <h4>Brainstorming</h4>
                         <p>To create an app that allowed users to share grocery lists so that when either user was at the store they could easily pick up the items. This app would involve using location-based alerts to notify users when their family or friend was at the store. Seamlessly integrate another user’s grocery list in yours while still maintaining separation.</p>
-                        <img src="images/research01.png">
+                        <img class="rounded-lg img-fluid mb-5" src="images/research01.png">
                     </div>
                     <div class="col">
                         <h4>User Research</h4>
                         <p>I conducted two of the user interviews amongst the team. My notes were transcribed onto a Google sheets file. After all the interviews were conducted, I shared my thoughts on the findings during one of our sprints. I held sprints every other day and used Trello to keep everyone up to date on the deliverables.</p>
-                        <img src="images/research02.jpeg">
+                        <img class="rounded-lg img-fluid mb-5" src="images/research02.jpeg">
                     </div>
                 </div>
             </div> 
@@ -127,26 +125,26 @@
         <section id="iteration">
             <div class="container-fluid">
                 <div class="row mb-5">
-                    <h2 class="">Iteration</h2>
+                    <h2 class="col">Iteration</h2>
                 </div>
                 <div class="row mb-5">
                     <div class="col-sm"></div>
                     <div class="col-sm">
-                        <img src="images/lofiPrototype01.jpeg">
+                        <img class="rounded-lg img-fluid" src="images/lofiPrototype01.jpeg">
                         <figcaption class="figure-caption">Sketching out some quick thumbnails.</figcaption>
                     </div>
                     <div class="col-sm"></div>
                 </div>
-                <div class="row mb-5">
+                <div class="row mb-5 lofi">
                     <div class="col-1"></div>
                     <div class="col-3">
-                        <img src="images/lofiPrototype02.jpeg">
+                        <img class="rounded-lg" src="images/lofiPrototype02.jpeg">
                     </div>
                     <div class="col-3">
-                        <img src="images/lofiPrototype03.jpeg">
+                        <img class="rounded-lg" src="images/lofiPrototype03.jpeg">
                     </div>
                     <div class="col-3">
-                        <img src="images/lofiPrototype04.jpeg">
+                        <img class="rounded-lg" src="images/lofiPrototype04.jpeg">
                     </div>
                     <div class="col-1"></div>
                 </div>
@@ -158,7 +156,7 @@
                 <div class="row">
                     <div class="col-sm"></div>
                       <div class="col-sm">
-                        <img class="mb-3" src="images/midfiPrototype01.png" alt="..."><p>Having a direction forward, I began creating mid-fidelity wireframes of the general layout based on the user flow developed by one of the team members. During this phase, I used the opportunity to train my teammates on how to use Figma with more efficiency.</p>
+                        <img class="mb-3 rounded-lg img-fluid" src="images/midfiPrototype01.png" alt="..."><p>Having a direction forward, I began creating mid-fidelity wireframes of the general layout based on the user flow developed by one of the team members. During this phase, I used the opportunity to train my teammates on how to use Figma with more efficiency.</p>
                       </div>
                     <div class="col-sm"></div>
                 </div>
@@ -166,9 +164,10 @@
         </section>
         <!-- Prototype Section -->
         <section id="prototype">
-            <div class="jumbotron jumbotron-fluid" style="background-image: url(images/mura_prototype_bg.png); background-repeat: no-repeat; background-size: cover; height: 960px;">
+            <div class="jumbotron jumbotron-fluid" style="background-image: url(images/muraGirl.png); background-repeat: no-repeat; background-size: cover; height: 800px; background-position: center;">
                 <div class="container">
-                  <h1>Prototype</h1>
+                  <h1 class="muraTitle">Prototype</h1>
+                  <button id="myButton"><a href="https://www.figma.com/proto/bB3SJegICZ6StlMO2pwuWY/Mura-iOS-Version?node-id=121%3A7470&viewport=269%2C223%2C0.3226110637187958&scaling=scale-down" target="_blank">view prototype</a></button>
                 </div>
               </div>    
         </section>
